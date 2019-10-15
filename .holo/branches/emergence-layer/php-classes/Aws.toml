@@ -1,0 +1,7 @@
+[holomapping]
+holosource = "aws-sdk-php"
+root = "src"
+files = [
+    "**/*.php",
+    "!data/"
+]
