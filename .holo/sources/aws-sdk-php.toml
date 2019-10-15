@@ -1,0 +1,3 @@
+[holosource]
+url = "https://github.com/aws/aws-sdk-php.git"
+ref = "refs/heads/master"
