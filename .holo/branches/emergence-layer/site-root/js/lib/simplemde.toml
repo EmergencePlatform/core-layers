@@ -1,3 +1,4 @@
 [holomapping]
+holosource = "simplemde-dist"
 root = "dist"
 files = "**/*.js"
