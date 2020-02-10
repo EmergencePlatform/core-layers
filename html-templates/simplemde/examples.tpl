@@ -4,7 +4,7 @@
 
 {block "css"}
     {$dwoo.parent}
-    {cssmin "lib/simplemde/simplemde.min.css"}
+    {cssmin "lib/simplemde.min.css"}
     <style>
     .description-ct {
         border: 3px dashed red;
@@ -18,7 +18,7 @@
 
 {block "js-bottom"}
     {$dwoo.parent}
-    {jsmin "lib/simplemde/simplemde.min.js"}
+    {jsmin "lib/simplemde.min.js"}
     <script>
     var simplemde = new SimpleMDE({
         element: document.querySelector('textarea[name=description-1]')
